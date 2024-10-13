@@ -6,8 +6,10 @@ export default function Home() {
   return (
     <>
       <Preloader />
-      <Navbar />
-      <Main />
+      <div className="animate-appearing">
+        <Navbar />
+        <Main />
+      </div>
     </>
   );
 }

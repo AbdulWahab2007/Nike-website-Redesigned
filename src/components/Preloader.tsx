@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 export default function Preloader() {
   const [isloading, setIsloading] = useState("flex");
-  const [loaderpercent, setLoaderpercent] = useState("0%");
   function loaded() {
     setTimeout(function () {
       setIsloading("none");

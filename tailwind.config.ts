@@ -12,6 +12,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        appearing: {
+          "0%": { opacity: "0%" },
+          "80%": { opacity: "0%" },
+          "100%": { opacity: "100%" },
+        },
+      },
+      animation: {
+        appearing: "appearing 2.7s",
+      },
     },
   },
   plugins: [],

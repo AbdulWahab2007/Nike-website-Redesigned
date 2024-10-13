@@ -1,15 +1,17 @@
 import Image from "next/image";
 
 export default function Main() {
+  const logoClass = "my-2 bg-white hover:cursor-pointer";
   return (
     <>
       <div
         style={{
-          backgroundImage: `url('/images/Home_BG_Dark.png')`,
+          backgroundImage: `url('/images/Background_Dark.png')`,
+          backgroundSize: "85%",
         }}
-        className="container flex w-full h-[660px] bg-cover bg-center mt-3"
+        className="container flex justify-between w-full h-[660px] bg-cover bg-no-repeat bg-center mt-3"
       >
-        <div className="left w-1/2 mx-1 h-full  flex flex-col">
+        <div className="left w-[45%] mx-1 h-full  flex flex-col">
           <h1 className="text-8xl font-serif mt-40 ml-16 font-bold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
             NIKE
           </h1>
@@ -55,19 +57,21 @@ export default function Main() {
         <div className=" flex image w-2/5 mx-1 h-full">
           <Image
             src="/images/shoes.png"
-            width={688}
+            width={0}
             height={0}
             alt="Nike logo"
+            sizes="100vw"
+            className="w-[602px] h-[628px]"
           />
         </div>
-        <div className="right flex flex-col items-end justify-center w-1/12 h-full mx-1">
+        <div className="right w-[50px] flex flex-col justify-center h-full mx-1">
           <Image
             src="/icons/facebook.png"
             width={40}
             height={0}
             alt="Nike logo"
             style={{ borderRadius: "50%" }}
-            className="my-2 bg-white"
+            className={logoClass}
           />
           <Image
             src="/icons/youtube.png"
@@ -75,7 +79,7 @@ export default function Main() {
             height={0}
             alt="Nike logo"
             style={{ borderRadius: "50%" }}
-            className="my-2 bg-white"
+            className={logoClass}
           />
           <Image
             src="/icons/twitter.png"
@@ -83,7 +87,7 @@ export default function Main() {
             height={0}
             alt="Nike logo"
             style={{ borderRadius: "50%" }}
-            className="my-2 bg-white"
+            className={logoClass}
           />
           <Image
             src="/icons/instagram.png"
@@ -91,7 +95,7 @@ export default function Main() {
             height={0}
             alt="Nike logo"
             style={{ borderRadius: "50%" }}
-            className="my-2 bg-white"
+            className={logoClass}
           />
         </div>
       </div>
