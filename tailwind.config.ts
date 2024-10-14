@@ -20,7 +20,13 @@ const config: Config = {
         },
       },
       animation: {
-        appearing: "appearing 2.7s",
+        appearing: "appearing 2s",
+      },
+      fontFamily: {
+        caveat: ["Caveat"],
+        paragraph: ["Itim"],
+        subHeads: ["Rubik"],
+        headings: ["Roboto Condensed"],
       },
     },
   },
