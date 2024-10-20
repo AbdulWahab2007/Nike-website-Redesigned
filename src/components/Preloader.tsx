@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Preloader() {
   const [isloading, setIsloading] = useState("flex");
@@ -17,11 +18,19 @@ export default function Preloader() {
       <div
         style={{
           display: isloading,
-          backgroundImage: `url('/images/loadingScreen.jpg')`,
         }}
-        className="preLoader bg-cover bg-center flex justify-center items-center flex-col w-full h-screen fixed bg-white z-50"
+        className="flex justify-center items-center flex-col w-full h-screen fixed bg-white z-50"
       >
-        <div className="flex w-2/4 mt-36 itenms-center justify-start">
+        <div className="w-full flex justify-center">
+          <Image
+            src="/icons/nike.png"
+            width={150}
+            height={0}
+            alt="Nike logo"
+            sizes="100vw"
+          />
+        </div>
+        <div className="flex w-2/4 itenms-center justify-start">
           <motion.div
             className="progress w-2 rounded-lg h-4 bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700"
             animate={{ width: 770 }}

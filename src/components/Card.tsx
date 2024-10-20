@@ -8,8 +8,10 @@ export default function Card(props: any) {
         style={{ borderRadius: "10px" }}
       >
         <div className="flex flex-col w-3/5 p-3 pt-8 pl-5 h-full">
-          <h1 className="text-4xl font-subHeads font-medium">Shoes</h1>
-          <p className=" text-md font-paragraph my-2">
+          <h1 className="text-4xl text-white font-subHeads font-medium">
+            Shoes
+          </h1>
+          <p className=" text-md text-white font-paragraph my-2">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
             maxime.
           </p>
