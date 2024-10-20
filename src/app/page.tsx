@@ -1,3 +1,4 @@
+import LoginPage from "@/components/LoginPage";
 import Main from "@/components/Main";
 import Navbar from "@/components/Navbar";
 import Preloader from "@/components/Preloader";
@@ -15,6 +16,7 @@ export default function Home() {
         <Main />
         <Products />
         <Services />
+        <LoginPage />
       </div>
     </>
   );

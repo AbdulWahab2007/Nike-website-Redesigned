@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   const anchorClass =
@@ -14,32 +14,32 @@ export default function Navbar() {
           </h1>
         </div>
         <div className="mid w-2/4 flex justify-center items-center">
-          <a className={anchorClass} href="">
+          <Link className={anchorClass} href="">
             Home
-          </a>
-          <a className={anchorClass} href="">
+          </Link>
+          <Link className={anchorClass} href="">
             Products
-          </a>
-          <a className={anchorClass} href="">
+          </Link>
+          <Link className={anchorClass} href="">
             Reviews
-          </a>
-          <a className={anchorClass} href="">
+          </Link>
+          <Link className={anchorClass} href="">
             About
-          </a>
-          <a className={anchorClass} href="">
+          </Link>
+          <Link className={anchorClass} href="">
             Services
-          </a>
+          </Link>
         </div>
         <div className="right w-1/4 flex items-center justify-center pt-2">
-          <a href="">
+          <Link href="">
             <span className={iconClass}>favorite</span>
-          </a>
-          <a href="">
+          </Link>
+          <Link href="">
             <span className={iconClass}>person</span>
-          </a>
-          <a href="">
+          </Link>
+          <Link href="">
             <span className={iconClass}>shopping_cart</span>
-          </a>
+          </Link>
         </div>
       </div>
     </>
