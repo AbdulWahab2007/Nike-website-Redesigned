@@ -36,7 +36,7 @@ export default function LoginPage() {
               placeholder="Password"
             />
             <div className="flex w-full justify-end">
-              <p className="text-md font-subHeads font-semibold">
+              <p className="text-md font-subHeads font-semibold hover:cursor-pointer">
                 Forgot password ?
               </p>
             </div>

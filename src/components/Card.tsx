@@ -39,7 +39,7 @@ export default function Card(props: any) {
             width={344}
             height={0}
             alt="Shoes Image"
-            className="mr-10"
+            className="mr-10 scale-90 transition-all hover:scale-100"
           />
         </div>
       </div>

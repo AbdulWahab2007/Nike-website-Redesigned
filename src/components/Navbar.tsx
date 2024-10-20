@@ -21,13 +21,10 @@ export default function Navbar() {
             Products
           </Link>
           <Link className={anchorClass} href="">
-            Reviews
-          </Link>
-          <Link className={anchorClass} href="">
-            About
-          </Link>
-          <Link className={anchorClass} href="">
             Services
+          </Link>
+          <Link className={anchorClass} href="">
+            Login
           </Link>
         </div>
         <div className="right w-1/4 flex items-center justify-center pt-2">
