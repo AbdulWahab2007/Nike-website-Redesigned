@@ -8,6 +8,7 @@ export default function LoginPage() {
           backgroundImage: `url('/images/loging_bg.png')`,
         }}
         className="w-full h-screen pt-[77px] flex bg-center bg-no-repeat bg-cover"
+        id="login"
       >
         <div className="w-1/2 flex justify-center">
           <Image

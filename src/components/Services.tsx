@@ -3,7 +3,10 @@ import Image from "next/image";
 export default function Services() {
   return (
     <>
-      <div className="w-full h-screen pt-[77px] flex flex-col items-center">
+      <div
+        className="w-full h-screen pt-[77px] flex flex-col items-center"
+        id="services"
+      >
         <div className="w-full flex justify-center">
           <h1 className="font-headings text-7xl font-semibold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
             Services

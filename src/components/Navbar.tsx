@@ -14,16 +14,16 @@ export default function Navbar() {
           </h1>
         </div>
         <div className="mid w-2/4 flex justify-center items-center">
-          <Link className={anchorClass} href="">
+          <Link className={anchorClass} href="#home">
             Home
           </Link>
-          <Link className={anchorClass} href="">
+          <Link className={anchorClass} href="#products">
             Products
           </Link>
-          <Link className={anchorClass} href="">
+          <Link className={anchorClass} href="#services">
             Services
           </Link>
-          <Link className={anchorClass} href="">
+          <Link className={anchorClass} href="#login">
             Login
           </Link>
         </div>

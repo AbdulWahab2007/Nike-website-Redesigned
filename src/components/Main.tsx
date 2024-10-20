@@ -9,7 +9,8 @@ export default function Main() {
           backgroundImage: `url('/images/Background_Light.png')`,
           backgroundSize: "85%",
         }}
-        className=" mt-[77px] flex justify-between w-full h-[661px] bg-cover bg-no-repeat bg-center"
+        className=" pt-[77px] flex justify-between w-full h-[781px] bg-cover bg-no-repeat bg-center"
+        id="home"
       >
         <div className="left w-[45%] mx-1 h-full  flex flex-col">
           <h1 className="text-8xl font-caveat mt-40 ml-16 font-bold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
