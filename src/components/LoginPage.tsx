@@ -32,7 +32,7 @@ export default function LoginPage() {
           <div className="flex flex-col w-1/2 my-2">
             <p className="text-xl font-paragraph">Password</p>
             <input
-              type="text"
+              type="password"
               className="bg-transparent border-2 border-purple-600 rounded-md w-full h-10 p-2 placeholder:text-gray-700"
               placeholder="Password"
             />

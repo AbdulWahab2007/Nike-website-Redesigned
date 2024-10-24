@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function Navbar() {
   const anchorClass =
-    "m-5 text-xl font-subHeads font-medium hover:bg-gradient-to-r from-fuchsia-700 to-purple-700 hover:text-transparent hover:bg-clip-text";
+    "lg:m-5 m-[1.5vw] lg:text-xl text-[2.3vw] font-subHeads font-medium hover:bg-gradient-to-r from-fuchsia-700 to-purple-700 hover:text-transparent hover:bg-clip-text";
   const iconClass =
-    "material-symbols-outlined mx-2 hover:bg-gradient-to-r from-fuchsia-700 to-purple-700 hover:text-transparent hover:bg-clip-text hover:font-bold hover:font-semibold";
+    "material-symbols-outlined lg:mx-2 mx-0 scale-50 md:scale-75 lg:scale-100 hover:bg-gradient-to-r from-fuchsia-700 to-purple-700 hover:text-transparent hover:bg-clip-text hover:font-bold hover:font-semibold";
   return (
     <>
-      <div className=" fixed top-0 z-20 h-16 w-full flex shadow-sm shadow-black bg-white ">
+      <div className=" lg:h-16 h-[8vw]  w-full fixed top-0 z-20 flex shadow-sm shadow-black bg-white ">
         <div className="image w-1/4 flex items-center">
-          <h1 className="text-6xl  ml-16 font-bold italic tracking-tighter bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
+          <h1 className="lg:text-6xl text-[6vw]  lg:ml-16 ml-4 font-bold italic tracking-tighter bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
             NIKE&nbsp;
           </h1>
         </div>
