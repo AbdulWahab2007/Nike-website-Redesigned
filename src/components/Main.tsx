@@ -9,30 +9,30 @@ export default function Main() {
           backgroundImage: `url('/images/Background_Light.png')`,
           backgroundSize: "85%",
         }}
-        className=" pt-[77px] flex justify-between w-full h-[781px] bg-cover bg-no-repeat bg-center"
+        className=" pt-[77px] flex justify-between w-full lg:h-[781px] h-auto lg:bg-cover bg-no-repeat bg-center"
         id="home"
       >
-        <div className="left w-[45%] mx-1 h-full  flex flex-col">
-          <h1 className="text-8xl font-caveat mt-40 ml-16 font-bold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
+        <div className="left lg:w-[45%] w-[100%] mx-1 h-full  flex flex-col">
+          <h1 className="lg:text-8xl text-[12vw] font-caveat lg:mt-40 mt-6 lg:ml-16 ml-4 font-bold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
             NIKE
           </h1>
-          <h1 className="text-6xl font-subHeads ml-16 font-bold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
+          <h1 className="lg:text-6xl text-[8vw] font-subHeads lg:ml-16 ml-4 font-bold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
             COLLECTION
           </h1>
-          <p className="ml-16 mt-6 text-md font-paragraph">
+          <p className="lg:ml-16 ml-4 lg:mt-6 mt-2 lg:text-xl text-[3.5vw] font-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
             quod, libero aliquam perferendis quae molestias ratione dolorem
             optio quos mollitia dolore, quaerat esse sint possimus aliquid
             asperiores itaque officia repellendus.
           </p>
-          <div className="flex ml-16 mt-4 w-[199px]">
+          <div className="flex lg:ml-16 ml-4 mt-4 w-[199px]">
             <div className="relative group">
-              <button className="relative inline-block p-px pb-[2px] font-semibold leading-6 text-black bg-black cursor-pointer rounded-xl transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
+              <button className="relative lg:w-auto w-[40vw] inline-block p-px pb-[2px] font-semibold leading-6 text-black bg-black cursor-pointer rounded-xl transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
                 <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
 
-                <span className="relative z-10 block px-6 py-3 rounded-xl bg-white">
+                <span className="relative z-10 block px-6 lg:py-3 py-1 rounded-xl bg-white">
                   <div className="relative z-10 flex items-center space-x-2">
-                    <span className="transition-all font-subHeads duration-500 group-hover:translate-x-1">
+                    <span className=" flex items-center transition-all lg:h-[35px] h-[20px] lg:text-[1vw] text-[3vw] font-subHeads duration-500 group-hover:translate-x-1">
                       SHOP NOW
                     </span>
                     <svg
@@ -54,7 +54,7 @@ export default function Main() {
               </button>
             </div>
           </div>
-          <div className="flex ml-16 mt-28 items-center gap-4">
+          <div className="flex lg:ml-16 ml-4 lg:mt-20 mt-4 items-center gap-4">
             <div className="social-button">
               <button className="relative w-10 h-10 rounded-full group">
                 <div className="floater w-full h-full absolute top-0 left-0 bg-violet-400 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
@@ -141,7 +141,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className=" flex image w-[55%] pl-16 h-full">
+        <div className=" lg:flex hidden image w-[55%] pl-16 h-full">
           <Image
             src="/images/shoes.png"
             width={0}
