@@ -9,16 +9,13 @@ import Services from "@/components/Services";
 export default function Home() {
   return (
     <>
-      <div className="fixed top-0">
-        <Preloader />
-      </div>
-      <div className="animate-appearing">
+      <div>
         <Navbar />
         <Main />
         <Products />
         <Services />
-        <LoginPage />
-        <Footer />
+        {/* <LoginPage />
+        <Footer />  */}
       </div>
     </>
   );

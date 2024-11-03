@@ -4,25 +4,25 @@ export default function Card(props: any) {
   return (
     <>
       <div
-        className="w-[485px] h-[245px] my-3 bg-gray-700 flex"
+        className="lg:w-[485px] w-[90%] lg:my-3 my-3 bg-gray-700 flex"
         style={{ borderRadius: "10px" }}
       >
-        <div className="flex flex-col w-3/5 p-3 pt-8 pl-5 h-full">
-          <h1 className="text-4xl text-white font-subHeads font-medium">
+        <div className="flex flex-col w-3/5 lg:p-3 p-1 lg:pt-8 pt-4 pl-5 h-full">
+          <h1 className="lg:text-4xl text-[6.3vw] text-white font-subHeads font-medium">
             Shoes
           </h1>
-          <p className=" text-md text-white font-paragraph my-2">
+          <p className=" lg:text-[16px] text-[3vw] text-white font-paragraph lg:my-2 my-1">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
             maxime.
           </p>
 
           <button
             type="submit"
-            className="flex justify-center ml-0 text-black gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group"
+            className="flex lg:mb-0 mb-2 font-bold justify-center ml-0 text-black gap-2 items-center mx-auto shadow-xl lg:text-lg text-[2.7vw] bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 lg:py-2 overflow-hidden border-2 rounded-full group"
           >
             Buy Now
             <svg
-              className="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-gray-50 ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
+              className="lg:w-8 w-7 lg:h-8 h-7 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-gray-50 ease-linear duration-300 rounded-full border lg:border-gray-700 group-hover:border-none p-2 rotate-45"
               viewBox="0 0 16 19"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -39,7 +39,7 @@ export default function Card(props: any) {
             width={344}
             height={0}
             alt="Shoes Image"
-            className="mr-10 scale-90 transition-all hover:scale-100"
+            className="lg:mr-10 mr-5 lg:scale-90 scale-75 transition-all hover:scale-100"
           />
         </div>
       </div>

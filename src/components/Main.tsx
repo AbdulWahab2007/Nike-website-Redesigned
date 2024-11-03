@@ -16,7 +16,7 @@ export default function Main() {
           <h1 className="lg:text-8xl text-[12vw] font-caveat lg:mt-40 mt-6 lg:ml-16 ml-4 font-bold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
             NIKE
           </h1>
-          <h1 className="lg:text-6xl text-[8vw] font-subHeads lg:ml-16 ml-4 font-bold bg-gradient-to-r from-fuchsia-700 via-purple-700 to-purple-700 text-transparent bg-clip-text">
+          <h1 className="lg:text-6xl text-[8vw] font-subHeads lg:ml-16 ml-4 font-bold bg-gradient-to-r from-fuchsia-700 via-grey-600 to-black text-transparent bg-clip-text">
             COLLECTION
           </h1>
           <p className="lg:ml-16 ml-4 lg:mt-6 mt-2 lg:text-xl text-[3.5vw] font-paragraph">
@@ -54,7 +54,7 @@ export default function Main() {
               </button>
             </div>
           </div>
-          <div className="flex lg:ml-16 ml-4 lg:mt-20 mt-4 items-center gap-4">
+          <div className="flex lg:ml-16 ml-4 lg:mt-20 mt-10 items-center gap-4">
             <div className="social-button">
               <button className="relative w-10 h-10 rounded-full group">
                 <div className="floater w-full h-full absolute top-0 left-0 bg-violet-400 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"></div>
