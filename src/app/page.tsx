@@ -14,8 +14,8 @@ export default function Home() {
         <Main />
         <Products />
         <Services />
-        {/* <LoginPage />
-        <Footer />  */}
+        <LoginPage />
+        <Footer />
       </div>
     </>
   );
